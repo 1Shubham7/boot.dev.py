@@ -30,7 +30,7 @@ The `expression` is what each new element will be. So our example can be read as
 
 ## Adding a Condition
 
-You can also add an `if` to the end to keep *only* the items you care about:
+You can also add an `if` condition to the end to keep *only* the items you care about:
 
 ```python
 [expression for item in iterable if condition]

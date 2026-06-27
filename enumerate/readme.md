@@ -32,21 +32,23 @@ for i, item in enumerate(items):
 # 2: potion
 ```
 
-On each pass through the loop, `enumerate()` hands you the index *and* the value together, so you never have to index back into the list yourself.
+On each pass through the loop, `enumerate()` hands you the index *and* the value together.
 
-## Starting at a Different Number
+## Choosing Where to Start
 
-By default the index starts at `0`, just like normal list indexes. If you'd rather start counting somewhere else, pass a `start` value as the second argument:
+The index starts at `0` by default, just like list indexes. Pass a second argument to start counting somewhere else:
 
 ```python
-players = ["Aria", "Bjorn", "Cassius"]
-for rank, player in enumerate(players, start=1):
-    print(f"{rank}. {player}")
+heroes = ["Aria", "Bjorn", "Cassius"]
+for place, hero in enumerate(heroes, start=1):
+    print(f"{place}: {hero}")
 # Prints:
-# 1. Aria
-# 2. Bjorn
-# 3. Cassius
+# 1: Aria
+# 2: Bjorn
+# 3: Cassius
 ```
+
+Notice that `start` only changes the *number* `enumerate()` counts out - it doesn't skip any items. We still loop over the whole list beginning with the very first hero (`Aria`); she's just labeled `1` instead of `0`. The `start` value is a counter, not a starting index into the list.
 
 ## Assignment
 

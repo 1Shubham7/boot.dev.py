@@ -26,7 +26,7 @@ The shape of a list comprehension is:
 [expression for item in iterable]
 ```
 
-The `expression` is what each new element will be. Read our example as: "give me `roll * 2` (expression), for each `roll` in `damage_rolls`."
+The `expression` is what each new element will be. So our example can be read as: "give me `roll * 2` (expression), for each `roll` in `damage_rolls`."
 
 ## Adding a Condition
 

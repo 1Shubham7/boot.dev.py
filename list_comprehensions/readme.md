@@ -11,7 +11,7 @@ print(doubled)
 # Prints: [20, 50, 100, 150]
 ```
 
-Python has a compact shortcut for exactly this pattern, called *list comprehension*. The same code collapses into a single line:
+Python has a compact shortcut for this pattern, called *list comprehension*. The same code collapses into a single line:
 
 ```python
 damage_rolls = [10, 25, 50, 75]

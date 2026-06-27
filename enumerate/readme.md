@@ -12,8 +12,8 @@ It's elegant, but it throws away the index. Sometimes you need *both* the index 
 
 ```python
 items = ["sword", "shield", "potion"]
-for i in range(len(items)):
-    print(f"{i}: {items[i]}")
+for index in range(len(items)):
+    print(f"{index}: {items[index]}")
 # Prints:
 # 0: sword
 # 1: shield
@@ -24,8 +24,8 @@ That works, but Python gives us something cleaner: the built-in `enumerate()` fu
 
 ```python
 items = ["sword", "shield", "potion"]
-for i, item in enumerate(items):
-    print(f"{i}: {item}")
+for index, item in enumerate(items):
+    print(f"{index}: {item}")
 # Prints:
 # 0: sword
 # 1: shield

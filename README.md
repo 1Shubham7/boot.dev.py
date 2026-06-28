@@ -76,7 +76,7 @@ Here are the Screenshots:
 
 - I think we can also add executable code snippets, e.g. [Chapter 8, Lesson 6](https://www.boot.dev/lessons/f5ae3654-8363-436d-9858-51ac376251b6) - instead of this quiz question which I think is useless - not helping with anything. we could have had a code snippet of wrong indentation and one with correct indentation and asked the user to run both of them to learn what the error would look like.
 
-It doesnt have to be code snippets , it could be snippets of logic. it will come in handy for lessons like [Logical Operators](https://www.boot.dev/lessons/a4a6409a-b55a-4e6f-ba0e-a995fbe7a3d8).
+    It doesnt have to be code snippets , it could be snippets of logic. it will come in handy for lessons like [Logical Operators](https://www.boot.dev/lessons/a4a6409a-b55a-4e6f-ba0e-a995fbe7a3d8).
 
 - The first two lessons in the "Loops" chapter ([Lesson 1](https://www.boot.dev/lessons/81ebc973-32c2-40d3-92a0-97c594bff0ba) and [Lesson 2](https://www.boot.dev/lessons/a84740d3-9146-40c9-ae67-54486d171f60)) are almost identical - the "Whitespace Matters in Python!" section and the assignment repeat across both. They could be merged into a single lesson.
 

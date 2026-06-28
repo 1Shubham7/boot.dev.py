@@ -25,7 +25,9 @@ I went through the entire Python course before writing these two lessons. Both b
 - The `if` filter form pairs naturally with the filtering done in  Lesson 14 - Modulo and Lesson 22 - Filter Messages.
 </details>
 
-### Some improvements I want to suggest
+---
+
+# Some improvements I want to suggest
 
 I went through the entire python course and I found a few things that we can improve while going through the content:
 
@@ -35,8 +37,8 @@ I went through the entire python course and I found a few things that we can imp
 
 Here are the Screenshots:
 
-[!CH3 L2](./static/CH3-L2.png)
-[!CH3 L8](./static/CH3-L8.png)
+![CH3 L2](./static/CH3-L2.png)
+![CH3 L8](./static/CH3-L8.png)
 
 - **Some lessons can be passed without actually doing the exercise**, because they grade the printed output / return value instead of what the code really does:
 
